@@ -1,0 +1,71 @@
+/project-root
+│
+├── /backend
+│   ├── /config
+│   │   └── database.js       # Database configuration
+│   │   └── dotenv.js         # Environment variables configuration
+│   │
+│   ├── /controllers
+│   │   └── userController.js # User-related logic
+│   │   └── authController.js # Authentication-related logic
+│   │
+│   ├── /models
+│   │   └── userModel.js      # User schema
+│   │
+│   ├── /routes
+│   │   └── userRoutes.js     # User routes
+│   │   └── authRoutes.js     # Authentication routes
+│   │
+│   ├── /middlewares
+│   │   └── authMiddleware.js # Authentication middleware
+│   │
+│   ├── /utils
+│   │   └── errorHandler.js   # Error handling utility
+│   │   └── helpers.js        # Other helper functions
+│   │
+│   ├── /tests
+│   │   └── user.test.js      # User tests
+│   │
+│   ├── package.json          # Backend dependencies
+│   ├── server.js             # Entry point for the backend server
+│   └── .env                  # Environment variables
+│
+├── /frontend
+│   ├── /public
+│   │   └── index.html        # Main HTML file
+│   │
+│   ├── /src
+│   │   ├── /assets
+│   │   │   └── /images       # Image assets
+│   │   │   └── /styles       # CSS/Sass files
+│   │   │
+│   │   ├── /components
+│   │   │   └── Header.js     # Header component
+│   │   │   └── Footer.js     # Footer component
+│   │   │   └── ...           # Other components
+│   │   │
+│   │   ├── /contexts
+│   │   │   └── AuthContext.js # Authentication context
+│   │   │
+│   │   ├── /hooks
+│   │   │   └── useAuth.js    # Custom hooks
+│   │   │
+│   │   ├── /pages            # Next.js specific, each file corresponds to a route
+│   │   │   └── index.js      # Main page
+│   │   │   └── login.js      # Login page
+│   │   │   └── ...           # Other pages
+│   │   │
+│   │   ├── /services
+│   │   │   └── api.js        # API calls
+│   │   │
+│   │   ├── App.js            # Main App component
+│   │   ├── index.js          # Entry point for the frontend
+│   │   └── ...
+│   │
+│   ├── package.json          # Frontend dependencies
+│   └── .env                  # Environment variables
+│
+├── /scripts                  # Scripts for setting up, running, or deploying the project
+│
+├── README.md                 # Project documentation
+└── .gitignore                # Files and directories to be ignored by Git
